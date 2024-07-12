@@ -1,0 +1,2 @@
+subject,ptge_clean_loss,ptge_corrupted_loss_noise,ptge_corrupted_loss_blur,spaze_clean_loss,spaze_corrupted_loss_noise,spaze_corrupted_loss_blur
+p00,0.17131336400906244,0.17131336108843487,0.1949750019311905,0.006276123268995434,0.006276754559483379,0.08965990889972697
