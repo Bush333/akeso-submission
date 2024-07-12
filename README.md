@@ -8,11 +8,12 @@ Dataset :
 
 Steps :
 We need to first download and extract the MPIIGaze and MPIIFaceGace dataset
-  1.  python3 download_extract_dataset.py
-  2.  python3 prepare_and_process_data.py
-  3.  Execute final-ptge.ipynb  [ Implementation of Gaze Model, Calibration Model, Spaze Models. Training and Validation over clean and corrupted data ]
+  1.  Install all the packages mentioned in requirements.txt
+  2.  python3 download_extract_dataset.py
+  3.  python3 prepare_and_process_data.py
+  4.  Execute final-ptge.ipynb  [ Implementation of Gaze Model, Calibration Model, Spaze Models. Training and Validation over clean and corrupted data ]
         a.  The outputs/results are stored in ptge_spaze_comparison_results.csv
-  4. Execute ptge-spaze-evaluation-on-varied-callibration-params.ipynb
+  5. Execute ptge-spaze-evaluation-on-varied-callibration-params.ipynb
         b.  The outputs/results are stored in ptge_spaze_robustness_results.csv
 
 
