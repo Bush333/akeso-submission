@@ -14,7 +14,9 @@ We need to first download and extract the MPIIGaze and MPIIFaceGace dataset
   4.  Execute final-ptge.ipynb  [ Implementation of Gaze Model, Calibration Model, Spaze Models. Training and Validation over clean and corrupted data ]
         a.  The outputs/results are stored in ptge_spaze_comparison_results.csv
   5. Execute ptge-spaze-evaluation-on-varied-callibration-params.ipynb
-        b.  The outputs/results are stored in ptge_spaze_robustness_results.csv
+        a.  The outputs/results are stored in ptge_spaze_robustness_results.csv
+  6. Execute angular-error-analysic.ipynb to get analysis of angular errors for ptge and spaze models
+        a. The outputs/results are stored in : ptge_spaze_angular_error_results-variations-calibration-params.csv  and   ptge_spaze_angular_error_results-clean-corrupted-data.csv  
 
 
 Limitations:
